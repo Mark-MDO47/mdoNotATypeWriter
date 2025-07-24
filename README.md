@@ -39,7 +39,7 @@ Here is a work-in-progress list of things I need to keep in mind regarding this 
 
 ### Parts List - Work-in-Progress
 
-| Price | Descrip | URL |
+| Price (each) | Descrip | URL |
 | --- | --- | --- |
 | $17.50 | Adafruit Feather RP2040 with USB Type A Host | https://www.adafruit.com/product/5723 |
 | $4.00 | ULN2803: 8 Channel Darlington Driver (Solenoid/Unipolar Stepper) - ULN2803A | https://www.adafruit.com/product/970 |
