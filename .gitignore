@@ -39,3 +39,10 @@
 
 # debug information files
 *.dwo
+
+# General Mark Stuff
+wifi_key.h
+gitignore*
+*.bak
+*.lck
+*auto_saved_files*
