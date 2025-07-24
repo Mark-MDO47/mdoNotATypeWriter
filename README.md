@@ -38,6 +38,7 @@ Here is a work-in-progress list of things I need to keep in mind regarding this 
 - RP2040: "pio_usb.h" must not be included, otherwise pio-usb will be used as host controller
 
 ### Parts List - Work-in-Progress
+[Top](#mdo-notatypewriter "Top")<br>
 
 | Price (each) | Descrip | URL |
 | --- | --- | --- |
