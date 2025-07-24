@@ -42,7 +42,6 @@ Here is a work-in-progress list of things I need to keep in mind regarding this 
 | Price (each) | Num | Description | URL |
 | --- | --- | --- | --- |
 | $17.50 | 1 | Adafruit Feather RP2040 with USB Type A Host | https://www.adafruit.com/product/5723 |
-| $4.50 | 1 | Snap-on Enclosure for Adafruit Feather RP2040 USB Host | https://www.adafruit.com/product/6057 |
 | $4.00 | 1 | ULN2803: 8 Channel Darlington Driver (Solenoid/Unipolar Stepper) - ULN2803A | https://www.adafruit.com/product/970 |
 | $5.00 | 2 | Mini Push-Pull Solenoid - 5V | https://www.adafruit.com/product/2776 |
 | $9.60 | 1 | Toyvian Dollhouse Miniature Typewriter Typewriter Mini Office Typewriter Tiny Wooden Typewriter Decor Miniature Antique Typewriter Classic Manual Typewriter Dollhouse Decor Accessories | https://www.amazon.com/dp/B0B86HYR6P |
