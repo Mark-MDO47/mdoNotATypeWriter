@@ -37,6 +37,18 @@ This area contains information about the dual USB usage.
 Here is a work-in-progress list of things I need to keep in mind regarding this Dual USB technique and the RP2040
 - RP2040: "pio_usb.h" must not be included, otherwise pio-usb will be used as host controller
 
+### Parts List - Work-in-Progress
+
+| Price | Descrip | URL |
+| --- | --- | --- |
+| $17.50 | Adafruit Feather RP2040 with USB Type A Host | https://www.adafruit.com/product/5723 |
+| $4.00 | ULN2803: 8 Channel Darlington Driver (Solenoid/Unipolar Stepper) - ULN2803A | https://www.adafruit.com/product/970 |
+| $9.60 | Toyvian Dollhouse Miniature Typewriter Typewriter Mini Office Typewriter Tiny Wooden Typewriter Decor Miniature Antique Typewriter Classic Manual Typewriter Dollhouse Decor Accessories | https://www.amazon.com/dp/B0B86HYR6P |
+| $5.00 | 2 PCS Small Call Bell, 2.56 Inch Service Bell, Ring Bell for Service, Dinner Bell, Counter Bell, Desk Bell | https://www.amazon.com/dp/B0DYDWRYZT |
+| $0.75 | HiLetgo 10pcs 4 Channels IIC I2C Logic Level Converter Bi-Directional 3.3V-5V Shifter Module | https://www.amazon.com/HiLetgo-Channels-Converter-Bi-Directional-3-3V-5V/dp/B07F7W91LC |
+
+
+
 ## License
 [Top](#mdo-notatypewriter "Top")<br>
 I am using the MIT license for this project since that is what Adafruit Learning uses.
