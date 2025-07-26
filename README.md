@@ -9,6 +9,10 @@ The original is here:
 
 **Table Of Contents**
 * [Top](#mdo-notatypewriter "Top")
+* [Introduction](#introduction "Introduction")
+  * [Differences from Original Adafruit Learning Not A Typewriter](#differences-from-original-adafruit-learning-not-a-typewriter "Differences from Original Adafruit Learning Not A Typewriter")
+  * [RP2040 and Dual USB](#rp2040-and-dual-usb "RP2040 and Dual USB")
+  * [Parts List - Work-in-Progress](#parts-list-\--work\-in\-progress "Parts List - Work-in-Progress")
 * [License](#license "License")
 
 ## Introduction
