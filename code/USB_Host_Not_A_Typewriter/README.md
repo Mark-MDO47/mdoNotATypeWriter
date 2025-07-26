@@ -26,7 +26,7 @@ I am using a non-I2C solenoid driver instead of the I2C version that the origina
 
 This will be my first significant project using CircuitPython, although I have done a fair bit of Python coding on PCs. Fortunately I don't think my changes will require any drastic coding effort.
 
-It appears that the main point of the change will be in the strike_key_solenoid() and ring_bell_solenoid() routines. The rest will just be tidying up and perhaps adjusting some of the configuration parameters to my liking.<br>
+It appears that the main point of the change will be in the strike_key_solenoid() and ring_bell_solenoid() routines. The rest will just be initializing, tidying up, and perhaps adjusting some of the configuration parameters to my liking.<br>
 Here is what the original code looks like.
 
 ```Python
@@ -42,6 +42,37 @@ def ring_bell_solenoid():
     time.sleep(SOLENOID_STRIKE_TIME)
     noid_2.value = False
 ```
+
+I will need to initialize some I/O pins
+
+```Python
+import digitalio
+
+noid1_pin = digitalio.DigitalInOut(board.D13)
+noid1_pin.direction = digitalio.Direction.OUTPUT
+noid1_pin.value = False
+
+noid2_pin = digitalio.DigitalInOut(board.D13)
+noid2_pin.direction = digitalio.Direction.OUTPUT
+noid2_pin.value = False
+```
+
+And then replace the two routines
+
+```Python
+def strike_key_solenoid():
+    """Activate the key strike solenoid briefly"""
+    noid1_pin.value = True
+    time.sleep(SOLENOID_STRIKE_TIME)
+    noid1_pin.value = False
+
+def ring_bell_solenoid():
+    """Activate the bell solenoid briefly"""
+    noid2_pin.value = True
+    time.sleep(SOLENOID_STRIKE_TIME)
+    noid2_pin.value = False
+```
+
 
 ## License
 [Top](#my-version-of-adafruit-learning-usb_host_not_a_typewriter "Top")<br>
