@@ -48,11 +48,12 @@ I will need to initialize some I/O pins
 ```Python
 import digitalio
 
-noid1_pin = digitalio.DigitalInOut(board.D13)
+# I will use the same SCL/SDA pins so I can use the I2C connector
+noid1_pin = digitalio.DigitalInOut(board.D2)
 noid1_pin.direction = digitalio.Direction.OUTPUT
 noid1_pin.value = False
 
-noid2_pin = digitalio.DigitalInOut(board.D13)
+noid2_pin = digitalio.DigitalInOut(board.D3)
 noid2_pin.direction = digitalio.Direction.OUTPUT
 noid2_pin.value = False
 ```
