@@ -18,14 +18,13 @@ I am not sure if I am required to provide Attribution to Adafruit and to Liz Cla
 
 ## My Modifications
 [Top](#my-version-of-adafruit-learning-usb_host_not_a_typewriter "Top")<br>
-I am using the USB Host version of the code. In this version the keyboard connects to the Feather via a "host-mode" USB-A port and keystrokes are forwarded toe the "device-mode" USB-C port while also affecting the solenoids to give sound effects.
-
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/137/815/medium640/3d_printing_hero-ipad.jpg?1750171571" width="400" alt="Original Adafruit Learning Not A Typewriter">
+I am using the USB Host version of the code. In this version the keyboard connects to the Feather RP2040 via a "host-mode" USB-A port and keystrokes are forwarded to the "device-mode" USB-C port (and on to the PC) while also affecting the solenoids to give sound effects. See below for an image of the original version of this from Adafruit Learning.<br>
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/137/815/medium640/3d_printing_hero-ipad.jpg?1750171571" width="400" alt="Original Adafruit Learning Not A Typewriter - USB Host">
 
 I am using a non-I2C solenoid driver instead of the I2C version that the original code expects.
 - https://www.adafruit.com/product/970
 
-This will be my first significant project using CircuitPython, although I have done a fair bit of Python coding. Fortunately I don't think the changes I will want to make will require any drastic coding effort.
+This will be my first significant project using CircuitPython, although I have done a fair bit of Python coding on PCs. Fortunately I don't think my changes will require any drastic coding effort.
 
 ## License
 [Top](#my-version-of-adafruit-learning-usb_host_not_a_typewriter "Top")<br>
