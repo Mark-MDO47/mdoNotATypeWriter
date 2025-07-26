@@ -36,8 +36,13 @@ The RP2040 is a new experience for me, as is the use of two USB interfaces. I ga
 This area contains information about the dual USB usage.
 - https://github.com/adafruit/Adafruit_TinyUSB_Arduino/tree/master/examples/DualRole
 
-Here is a work-in-progress list of things I need to keep in mind regarding this Dual USB technique and the RP2040
+Here is a work-in-progress list of things I need to keep in mind regarding this Dual USB technique and the RP2040.
+
+For Arduino-style programming:
 - RP2040: "pio_usb.h" must not be included, otherwise pio-usb will be used as host controller
+
+For CircuitPython-style programming:
+- nothing yet
 
 ### Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
