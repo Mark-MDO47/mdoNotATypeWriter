@@ -48,6 +48,11 @@ For Arduino-style programming:
 For CircuitPython-style programming:
 - nothing yet
 
+## The Code - Derived from Adafruit Learning
+[Top](#mdo-notatypewriter "Top")<br>
+Here is a link to the area with my version of the code and a description of the changes I made.
+- https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/code/USB_Host_Not_A_Typewriter/README.md
+
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
 
