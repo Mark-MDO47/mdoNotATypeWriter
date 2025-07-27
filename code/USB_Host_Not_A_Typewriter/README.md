@@ -44,6 +44,9 @@ def ring_bell_solenoid():
 ```
 
 I will need to initialize some I/O pins
+- NOTE: the ULN2803 chip appears to be inverting, so I might need to swap True/False below.
+- Will do some experiments...
+- https://cdn-shop.adafruit.com/datasheets/ULN2803A.pdf
 
 ```Python
 import digitalio
@@ -58,7 +61,7 @@ noid2_pin.direction = digitalio.Direction.OUTPUT
 noid2_pin.value = False
 ```
 
-And then replace the two routines
+And then replace the two routines.
 
 ```Python
 def strike_key_solenoid():
