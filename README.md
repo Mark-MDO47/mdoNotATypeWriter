@@ -12,6 +12,7 @@ The original is here:
 * [Introduction](#introduction "Introduction")
 * [Differences from Original Adafruit Learning Not A Typewriter](#differences-from-original-adafruit-learning-not-a-typewriter "Differences from Original Adafruit Learning Not A Typewriter")
 * [RP2040 and Dual USB](#rp2040-and-dual-usb "RP2040 and Dual USB")
+* [The Code - Derived from Adafruit Learning](#the-code-\--derived-from-adafruit-learning "The Code - Derived from Adafruit Learning")
 * [Parts List - Work-in-Progress](#parts-list-\--work\-in\-progress "Parts List - Work-in-Progress")
 * [License](#license "License")
 
