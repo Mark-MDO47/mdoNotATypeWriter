@@ -44,9 +44,8 @@ def ring_bell_solenoid():
 ```
 
 I will need to initialize some I/O pins
-- NOTE: the ULN2803 chip appears to be inverting, so I might need to swap True/False below.
-- Will do some experiments...
 - https://cdn-shop.adafruit.com/datasheets/ULN2803A.pdf
+- It looks as if connecting the power this way makes HIGH activate the Solenoid
 
 ```Python
 import digitalio
