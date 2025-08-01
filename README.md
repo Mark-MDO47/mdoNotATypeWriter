@@ -73,9 +73,9 @@ Below is the schematic for my version of the Not A Typewriter project.
 | $17.50 | 1 | Adafruit Feather RP2040 with USB Type A Host | https://www.adafruit.com/product/5723<br>https://learn.adafruit.com/adafruit-feather-rp2040-with-usb-type-a-host<br>https://github.com/adafruit/Adafruit-Feather-RP2040-USB-Host-PCB/blob/main/Adafruit_Feather_RP2040_USB_Host_PrettyPins.pdf |
 | $4.00 | 1 | ULN2803: 8 Channel Darlington Driver (Solenoid/Unipolar Stepper) - ULN2803A | https://www.adafruit.com/product/970<br>https://www.openhacks.com/uploadsproductos/uln2803a.pdf<br>https://www.ic-components.com/blog/Your-Guide-to-ULN2803A-Transistor-Array.jsp |
 | $5.00 | 2 | Mini Push-Pull Solenoid - 5V | https://www.adafruit.com/product/2776 |
+| N/A | 1 | 47 uF 16V Electrolytic capacitor | https://www.amazon.com/dp/B081PT78Y5 |
 | $9.60 | 1 | Toyvian Dollhouse Miniature Typewriter Typewriter Mini Office Typewriter Tiny Wooden Typewriter Decor Miniature Antique Typewriter Classic Manual Typewriter Dollhouse Decor Accessories | https://www.amazon.com/dp/B0B86HYR6P |
 | $5.00 | 1 | 2 PCS Small Call Bell, 2.56 Inch Service Bell, Ring Bell for Service, Dinner Bell, Counter Bell, Desk Bell | https://www.amazon.com/dp/B0DYDWRYZT |
-| $0.75 | 1 | HiLetgo 10pcs 4 Channels IIC I2C Logic Level Converter Bi-Directional 3.3V-5V Shifter Module | https://www.amazon.com/HiLetgo-Channels-Converter-Bi-Directional-3-3V-5V/dp/B07F7W91LC |
 
 
 
