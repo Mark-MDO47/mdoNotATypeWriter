@@ -2129,7 +2129,7 @@
 					(type none)
 				)
 			)
-			(text "Feather RP2040 USB-A Host\nAdafruit"
+			(text "Adafruit Feather\nRP2040 USB-A Host"
 				(at 0.254 -6.35 0)
 				(effects
 					(font
