@@ -65,6 +65,9 @@ Below is the schematic for my version of the Not A Typewriter project.
 
 <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNotATypeWriter_schem.png" width="500" alt="Schematic Diagram">
 
+Here is an assembly diagram. I will probably add wire-lengths as I determine the physical layout.
+<img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_assy.png" width="500" alt="Schematic Diagram">
+
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
 
