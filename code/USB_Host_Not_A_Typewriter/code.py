@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 # https://github.com/Mark-MDO47 2025-08-03 modified for my own build of https://learn.adafruit.com/not-a-typewriter
+# https://github.com/Mark-MDO47/mdoNotATypeWriter
 # One major change (so far) affecting the code:
 #   1 - using https://www.adafruit.com/product/970 (ULN2803A DIP IC)
 #          instead of the I2C Solenoid Driver https://www.adafruit.com/product/6318
