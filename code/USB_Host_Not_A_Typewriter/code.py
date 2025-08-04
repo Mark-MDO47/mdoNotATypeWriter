@@ -2,16 +2,34 @@
 #
 # SPDX-License-Identifier: MIT
 
+# https://github.com/Mark-MDO47 2025-08-03 modified for my own build of https://learn.adafruit.com/not-a-typewriter
+# One major change (so far) affecting the code:
+#   1 - using https://www.adafruit.com/product/970 (ULN2803A DIP IC)
+#          instead of the I2C Solenoid Driver https://www.adafruit.com/product/6318
+#
+# Because of this I will use GPIO Digital Output pins instead of the I2C port to control the solenoids.
+#
+
 import array
 import time
 import board
-from adafruit_mcp230xx.mcp23017 import MCP23017
+# from adafruit_mcp230xx.mcp23017 import MCP23017 # Mark-MDO47 not used in my version
+import digitalio # Mark-MDO47 using GPIO digital output for solenoid control
 
 import usb
 import adafruit_usb_host_descriptors
 import usb_hid
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
+
+# Mark-MDO47 use GPIO Digital Output pins for solenoid control
+noid1_pin = digitalio.DigitalInOut(board.D10)    # Solenoid for KEY press
+noid1_pin.direction = digitalio.Direction.OUTPUT
+noid1_pin.value = False
+
+noid2_pin = digitalio.DigitalInOut(board.D6)     # Solenoid for BELL ring
+noid2_pin.direction = digitalio.Direction.OUTPUT
+noid2_pin.value = False
 
 # Typewriter configuration
 KEYSTROKE_BELL_INTERVAL = 25  # Ring bell every 25 keystrokes
@@ -116,14 +134,14 @@ kbd_interface_index = None
 kbd_endpoint_address = None
 keyboard = None
 
-i2c = board.STEMMA_I2C()
-
-mcp = MCP23017(i2c)
-
-noid_2 = mcp.get_pin(0)  # Key strike solenoid
-noid_1 = mcp.get_pin(1)  # Bell solenoid
-noid_1.switch_to_output(value=False)
-noid_2.switch_to_output(value=False)
+# Mark-MDO47 not used in my version
+#
+# i2c = board.STEMMA_I2C()
+# mcp = MCP23017(i2c)
+# noid_2 = mcp.get_pin(0)  # Key strike solenoid
+# noid_1 = mcp.get_pin(1)  # Bell solenoid
+# noid_1.switch_to_output(value=False)
+# noid_2.switch_to_output(value=False)
 
 # Typewriter state tracking
 keystroke_count = 0
@@ -157,17 +175,19 @@ if keyboard is None:
 
 buf = array.array("b", [0] * 8)
 
+# Mark-MDO47 use GPIO pins
 def strike_key_solenoid():
     """Activate the key strike solenoid briefly"""
-    noid_1.value = True
+    noid1_pin.value = True
     time.sleep(SOLENOID_STRIKE_TIME)
-    noid_1.value = False
+    noid1_pin.value = False
 
+# Mark-MDO47 use GPIO pins
 def ring_bell_solenoid():
     """Activate the bell solenoid briefly"""
-    noid_2.value = True
+    noid2_pin.value = True
     time.sleep(SOLENOID_STRIKE_TIME)
-    noid_2.value = False
+    noid2_pin.value = False
 
 def get_pressed_keys(report_data):
     """Extract currently pressed keys from HID report"""
