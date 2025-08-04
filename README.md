@@ -5,7 +5,7 @@ The original is here:
 - https://learn.adafruit.com/not-a-typewriter
 - Ruiz Brothers and Liz Clark
 
-I am happy to provide Attribution to Adafruit and to Liz Clark (author of the code) !
+I am happy to provide Attribution to Adafruit and to the Ruiz Brothers (3D design) and to Liz Clark (author of the code) !
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/137/815/medium640/3d_printing_hero-ipad.jpg?1750171571" width="400" alt="Original Adafruit Learning Not A Typewriter">
 
