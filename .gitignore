@@ -42,6 +42,7 @@
 
 # General Mark Stuff
 wifi_key.h
+~*
 gitignore*
 *.bak
 *.lck
