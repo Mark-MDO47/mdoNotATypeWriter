@@ -81,7 +81,7 @@ At first I had a circuit mistake: connected ULN2803A COM with GROUND instead of 
 | $5.00 | 2 | Mini Push-Pull Solenoid - 5V | https://www.adafruit.com/product/2776 |
 | N/A | 1 | 47 uF 16V Electrolytic capacitor | https://www.amazon.com/dp/B081PT78Y5 |
 | $9.60 | 1 | Toyvian Dollhouse Miniature Typewriter Typewriter Mini Office Typewriter Tiny Wooden Typewriter Decor Miniature Antique Typewriter Classic Manual Typewriter Dollhouse Decor Accessories | https://www.amazon.com/dp/B0B86HYR6P |
-| $5.00 | 1 | 2 PCS Small Call Bell, 2.56 Inch Service Bell, Ring Bell for Service, Dinner Bell, Counter Bell, Desk Bell | https://www.amazon.com/dp/B0DYDWRYZT |
+| $2.50 | 1 | 2 PCS Small Call Bell, 2.56 Inch Service Bell, Ring Bell for Service, Dinner Bell, Counter Bell, Desk Bell | https://www.amazon.com/dp/B0DYDWRYZT |
 | $0.70 | 2 | 10 PCS (5@M 5@F) Upgraded Tiny Whoop JST-PH 2.0 Male and Female Connector Cable for Battery | https://www.amazon.com/dp/B07NWD5NTN |
 
 
