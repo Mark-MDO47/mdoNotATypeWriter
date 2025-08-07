@@ -68,6 +68,9 @@ Below is the schematic for my version of the Not A Typewriter project.
 Here is an assembly diagram. I will probably add wire-lengths as I determine the physical layout.
 <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_assy.png" width="500" alt="Schematic Diagram">
 
+At first I had a circuit mistake: connected ULN2803A COM with GROUND instead of +5V. After spending an unjustifiable amount of time, I corrected it. The following shows a depiction similar to my debugging efforts.
+- https://x.com/MakerIO/status/1953442023186305311
+
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
 
