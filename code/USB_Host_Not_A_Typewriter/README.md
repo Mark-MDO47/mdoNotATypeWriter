@@ -14,7 +14,7 @@ This code is derived from Adafruit Learning "Not A Typewriter". The original is 
 - https://learn.adafruit.com/not-a-typewriter
 - Ruiz Brothers and Liz Clark
 
-I am happy to provide Attribution to Adafruit and to Liz Clark (author of the code) !
+I am happy to provide Attribution to Adafruit and to the Ruiz Brothers (3D design) and to Liz Clark (author of the code) !
 
 ## My Modifications
 [Top](#my-version-of-adafruit-learning-usb_host_not_a_typewriter "Top")<br>
