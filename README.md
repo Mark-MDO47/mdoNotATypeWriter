@@ -94,7 +94,7 @@ With the addition of the LEDs, resistors, and switch it got complicated enough t
 | $0.20 | 1 | ON/Off Switch Self-Lock Micro Push Button Switch DC 30V 1A | https://www.amazon.com/gp/product/B086L2GPGX | $0.20 |
 | $0.15 | 2 | LED Green Diffused 3mm Round | https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151031VS06000/4489988 |
 | $0.10 | 2 | 330-Ohm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636 |
-| ??? | 1 | small StripBoard | from my parts bin |
+| ??? | 1 | small StripBoard | from my parts bin<br>similar to https://www.amazon.com/ElectroCookie-Solderable-Breadboard-Electronics-Gold-Plated/dp/B081MSKJJX/ref=sr_1_16 |
 | ??? | * | various angle brackets, scrap wood, screws and bolts | from my parts bin |
 
 ## License
