@@ -74,7 +74,7 @@ At first I had a circuit mistake: connected ULN2803A COM with GROUND instead of 
 - https://x.com/MakerIO/status/1953442023186305311
 
 With the addition of the LEDs, resistors, and switch it got complicated enough to use a StripBoard for part of the circuit. By not including the Feather RP2040 on the StripBoard I was able to keep the board quite small. Here is an indication of how it is assembled.
-- squares starting with F are connections from the Feather RP2040, SOL from the solenoids, SW a connection to the switch, W for wire, R and C for resistor and capacitor.
+- Squares starting with F are connections from the Feather RP2040, SOL from the solenoids, SW a connection to the switch, W for wire, R and C for resistor and capacitor.
 - The center dark area is the ULN2803A.
 
 <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_StripPerfBoard.png" width="500" alt="StripBoard Connections">
