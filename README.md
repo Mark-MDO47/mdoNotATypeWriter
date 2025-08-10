@@ -61,7 +61,9 @@ Here is a link to the area with my version of the code and a description of the 
 [Top](#mdo-notatypewriter "Top")<br>
 Below is the schematic for my version of the Not A Typewriter project.
 - The main difference from the original version is the use of the ULN2803A chip instead of the I2C Solenoid Driver module
+  - My favorite explanation of how to use ULN2803A are posts from pcmanbob starting at "Aug 15, 2023 9:13 am": https://forums.raspberrypi.com/viewtopic.php?t=354993
 - I chose to use some regular GPIO pins to control the solenoids instead of the ones on the I2C connector
+  - Saving the I2C connector in case I have another use for it
 
 <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNotATypeWriter_schem.png" width="500" alt="Schematic Diagram">
 
