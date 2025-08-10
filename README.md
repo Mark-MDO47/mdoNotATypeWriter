@@ -77,7 +77,7 @@ With the addition of the LEDs, resistors, and switch it got complicated enough t
 - Squares starting with F are connections from the Feather RP2040, SOL from the solenoids, SW a connection to the switch, W for wire, R and C for resistor and capacitor.
 - The center dark area is the ULN2803A.
 
-<img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_StripPerfBoard.png" width="500" alt="StripBoard Connections">
+<img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_StripPerfBoard.png" width="400" alt="StripBoard Connections">
 
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
