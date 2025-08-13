@@ -64,6 +64,7 @@ Below is the schematic for my version of the Not A Typewriter project.
   - My favorite explanation of how to use ULN2803A are posts from pcmanbob starting at "Aug 15, 2023 9:13 am": https://forums.raspberrypi.com/viewtopic.php?t=354993
 - I chose to use some regular GPIO pins to control the solenoids instead of the ones on the I2C connector
   - Saving the I2C connector in case I have another use for it
+- I have some LEDs that flash when the solenoids activate and a switch that disables the solenoids but allows the LEDs to still work. This lets me type quietely when my family is asleep.
 
 <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNotATypeWriter_schem.png" width="500" alt="Schematic Diagram">
 
