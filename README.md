@@ -97,7 +97,7 @@ With the addition of the LEDs, resistors, and switch it got complicated enough t
 | $0.95 | 1 | Breadboard-friendly SPDT Slide Switch | https://www.adafruit.com/product/805 |
 | $0.15 | 2 | LED Green Diffused 3mm Round | https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/151031VS06000/4489988 |
 | $0.10 | 2 | 330-Ohm 1/4 watt through-hole resistors | https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636 |
-| $2.oo | 1 | small StripBoard | https://www.amazon.com/dp/B0778G64QZ |
+| $2.00 | 1 | small StripBoard | https://www.amazon.com/dp/B0778G64QZ |
 | ??? | * | various angle brackets, scrap wood, screws and bolts | from my parts bin |
 
 ## License
