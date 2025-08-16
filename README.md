@@ -16,6 +16,7 @@ I am happy to provide Attribution to Adafruit and to the Ruiz Brothers (3D desig
 * [RP2040 and Dual USB](#rp2040-and-dual-usb "RP2040 and Dual USB")
 * [The Code - Derived from Adafruit Learning](#the-code-\--derived-from-adafruit-learning "The Code - Derived from Adafruit Learning")
 * [Schematic](#schematic "Schematic")
+* [Assembly](#assembly "Assembly")
 * [Parts List - Work-in-Progress](#parts-list-\--work\-in\-progress "Parts List - Work-in-Progress")
 * [License](#license "License")
 
