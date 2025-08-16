@@ -81,7 +81,7 @@ With the addition of the LEDs, resistors, and switch it got complicated enough t
 - Squares starting with F are connections from the Feather RP2040, SOL from the solenoids, SW a connection to the switch, R and C for resistor and capacitor, L for LED, and W for wire.
 - The center dark area is the ULN2803A.
 
-| Image | Connections | Image |
+| Image | Connections | Assembled |
 | --- | --- | --- |
 | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_image_StripPerfBoard.png" width="200" alt="StripBoard Picture"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_connect_StripPerfBoard.png" width="200" alt="StripBoard Connections"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_assembled_StripPerfBoard.jpg" width="200" alt="StripBoard Assembled"> |
 
