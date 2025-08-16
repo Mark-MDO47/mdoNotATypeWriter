@@ -31,7 +31,6 @@ Some parts were unavailable at this time and others I chose to do in a slightly 
   - ... so I replaced it with a non-I2C version https://www.adafruit.com/product/970
 - The original project includes files for a beautiful 3D-printed typewriter/project-box
   - ... I chose to use a "dollhouse" typewriter https://www.amazon.com/dp/B0B86HYR6P and some cardboard boxes and scrap I had on hand
-  - <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/DollhouseTypewriter.png" width="200" alt="Dollhouse Typewriter">
 
 Here is an image of most of the cast of characters for this project.<br>
 <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/CastOfCharacters_NOT.jpg" width="500" alt="My cast of characters for Not A Typewriter">
