@@ -80,7 +80,7 @@ With the addition of the LEDs, resistors, and switch it got complicated enough t
 
 | Connections | Image |
 | --- | --- |
-| <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_StripPerfBoard.png" width="200" alt="StripBoard Connections"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_image_StripPerfBoard.png" width="200" alt="StripBoard Picture"> |
+| <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_connect_StripPerfBoard" width="200" alt="StripBoard Connections"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_image_StripPerfBoard.png" width="200" alt="StripBoard Picture"> |
 
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
