@@ -45,7 +45,8 @@ def ring_bell_solenoid():
 
 I will need to initialize some I/O pins
 - https://cdn-shop.adafruit.com/datasheets/ULN2803A.pdf
-- It looks as if connecting the power this way makes HIGH activate the Solenoid
+- It looks as if connecting the power this way makes HIGH activate the Solenoid.
+- It helps me visualize if I think of current flow instead of voltage.
 
 ```Python
 import digitalio
