@@ -24,6 +24,9 @@ I am happy to provide Attribution to Adafruit and to the Ruiz Brothers (3D desig
 [Top](#mdo-notatypewriter "Top")<br>
 The "Not A Typewriter" project was so great I had to make a copy for myself.
 
+Here is a video of my version in action:<br>
+https://youtube.com/shorts/WYJfflX3Rgc
+
 ## Differences from Original Adafruit Learning Not A Typewriter
 [Top](#mdo-notatypewriter "Top")<br>
 Some parts were unavailable at this time and others I chose to do in a slightly different manner.
