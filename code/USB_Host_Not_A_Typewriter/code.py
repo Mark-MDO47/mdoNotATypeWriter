@@ -39,7 +39,7 @@ noid_bell_pin.direction = digitalio.Direction.OUTPUT
 noid_bell_pin.value = False
 
 # Typewriter configuration
-KEYSTROKE_BELL_INTERVAL = 25  # Ring bell every 25 keystrokes
+# KEYSTROKE_BELL_INTERVAL = 25  # Ring bell every (basically infinity) keystrokes
 SOLENOID_STRIKE_TIME = 0.03   # Duration in seconds for solenoid activation (reduced)
 SOLENOID_DELAY = 0.01         # Small delay between solenoid operations (reduced)
 ENTER_KEY_CODE = 0x28         # HID code for Enter key
@@ -340,7 +340,7 @@ if keyboard is None:
 
 
 print("USB Typewriter starting...")
-print(f"Bell will ring every {KEYSTROKE_BELL_INTERVAL} keystrokes or when Enter is pressed")
+# print(f"Bell will ring every {KEYSTROKE_BELL_INTERVAL} keystrokes or when Enter is pressed")
 
 while True:
     # try to read data from the keyboard
@@ -400,9 +400,9 @@ while True:
             keystroke_count = 0  # Reset counter
         elif key == BACKSPACE_KEY_CODE:
             keystroke_count = 0  # Reset counter but no bell
-        elif keystroke_count % KEYSTROKE_BELL_INTERVAL == 0:
-            print(f"\n*** DING! ({keystroke_count} keystrokes) ***\n")
-            ring_bell_solenoid()
+        # elif keystroke_count % KEYSTROKE_BELL_INTERVAL == 0:
+            # print(f"\n*** DING! ({keystroke_count} keystrokes) ***\n")
+            # ring_bell_solenoid()
     # Special handling for bell keys that are still held
     # check if they were released and re-pressed
     # This handles rapid double-taps where the key might not fully release
