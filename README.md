@@ -94,7 +94,7 @@ Below is the assembled electronics.<br>
 
 | Top View | Front View |
 | --- | --- |
-| <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_TopView.jpg" width="300" alt="Top View"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_SideView.jpg" width="300" alt="Front View"> |
+| <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_TopView.jpg" width="300" alt="Top View"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_SideView.jpg" width="350" alt="Front View"> |
 
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
