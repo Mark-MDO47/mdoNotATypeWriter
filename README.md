@@ -87,8 +87,11 @@ With the addition of the LEDs, resistors, and switch it got complicated enough t
 | --- | --- | --- |
 | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_image_StripPerfBoard.png" width="200" alt="StripBoard Picture"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_connect_StripPerfBoard.png" width="200" alt="StripBoard Connections"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_assembled_StripPerfBoard.jpg" width="200" alt="StripBoard Assembled"> |
 
-Below is the assembled electronics. The bell solenoid attaches via the connector at the end of the long wires.<br>
-<img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/mdoNOT_assy_image.jpg" width="500" alt="Assembly Image">
+Below is the assembled electronics.<br>
+
+| Top View | Front View |
+| --- | --- |
+| <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_TopView.jpg" width="300" alt="Top View"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_SideView.jpg" width="200" alt="Front View"> |
 
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
