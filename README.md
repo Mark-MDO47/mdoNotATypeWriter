@@ -7,7 +7,10 @@ The original is here:
 
 I am happy to provide Attribution to Adafruit and to the Ruiz Brothers (3D design) and to Liz Clark (author of the code) !
 
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/137/815/medium640/3d_printing_hero-ipad.jpg?1750171571" width="400" alt="Original Adafruit Learning Not A Typewriter">
+| Original | Mine |
+| --- | --- |
+| <img src="https://cdn-learn.adafruit.com/assets/assets/000/137/815/medium640/3d_printing_hero-ipad.jpg?1750171571" width="300" alt="Original Adafruit Learning Not A Typewriter"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_SideView.jpg" width="200" alt="MDO Not A TypewriterFront View"> |
+
 
 **Table Of Contents**
 * [Top](#mdo-notatypewriter "Top")
@@ -91,7 +94,7 @@ Below is the assembled electronics.<br>
 
 | Top View | Front View |
 | --- | --- |
-| <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_TopView.jpg" width="300" alt="Top View"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_SideView.jpg" width="200" alt="Front View"> |
+| <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_TopView.jpg" width="300" alt="Top View"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_SideView.jpg" width="300" alt="Front View"> |
 
 ## Parts List - Work-in-Progress
 [Top](#mdo-notatypewriter "Top")<br>
