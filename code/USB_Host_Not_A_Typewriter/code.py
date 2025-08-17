@@ -4,11 +4,17 @@
 
 # https://github.com/Mark-MDO47 2025-08-03 modified for my own build of https://learn.adafruit.com/not-a-typewriter
 # https://github.com/Mark-MDO47/mdoNotATypeWriter
-# One major change (so far) affecting the code:
+# The original code and project description is here:
+#    https://learn.adafruit.com/not-a-typewriter
+#    Ruiz Brothers and Liz Clark
+# Major changes (so far) affecting the code:
 #   1 - using https://www.adafruit.com/product/970 (ULN2803A DIP IC)
 #          instead of the I2C Solenoid Driver https://www.adafruit.com/product/6318
+#   2 - if no keyboard attached to the USB-A port then do a repeating pattern on the
+#          solenoids instead of halting
 #
-# Because of this I will use GPIO Digital Output pins instead of the I2C port to control the solenoids.
+# I will use GPIO Digital Output pins instead of the I2C port to control the solenoids.
+# This leaves the I2C port and its connector free for other uses
 #
 
 import array
@@ -24,13 +30,13 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 
 # Mark-MDO47 use GPIO Digital Output pins for solenoid control
-noid1_pin = digitalio.DigitalInOut(board.D10)    # Solenoid for KEY press
-noid1_pin.direction = digitalio.Direction.OUTPUT
-noid1_pin.value = False
+noid_key_pin = digitalio.DigitalInOut(board.D10)    # Solenoid for KEY press
+noid_key_pin.direction = digitalio.Direction.OUTPUT
+noid_key_pin.value = False
 
-noid2_pin = digitalio.DigitalInOut(board.D6)     # Solenoid for BELL ring
-noid2_pin.direction = digitalio.Direction.OUTPUT
-noid2_pin.value = False
+noid_bell_pin = digitalio.DigitalInOut(board.D6)     # Solenoid for BELL ring
+noid_bell_pin.direction = digitalio.Direction.OUTPUT
+noid_bell_pin.value = False
 
 # Typewriter configuration
 KEYSTROKE_BELL_INTERVAL = 25  # Ring bell every 25 keystrokes
@@ -171,24 +177,24 @@ for device in usb.core.find(find_all=True):
         # set the configuration so it can be used
         keyboard.set_configuration()
 
-if keyboard is None:
-    raise RuntimeError("No boot keyboard endpoint found")
+# if keyboard is None:
+#     raise RuntimeError("No boot keyboard endpoint found")
 
 buf = array.array("b", [0] * 8)
 
 # Mark-MDO47 use GPIO pins
 def strike_key_solenoid():
     """Activate the key strike solenoid briefly"""
-    noid1_pin.value = True
+    noid_key_pin.value = True
     time.sleep(SOLENOID_STRIKE_TIME)
-    noid1_pin.value = False
+    noid_key_pin.value = False
 
 # Mark-MDO47 use GPIO pins
 def ring_bell_solenoid():
     """Activate the bell solenoid briefly"""
-    noid2_pin.value = True
+    noid_bell_pin.value = True
     time.sleep(SOLENOID_STRIKE_TIME)
-    noid2_pin.value = False
+    noid_bell_pin.value = False
 
 def get_pressed_keys(report_data):
     """Extract currently pressed keys from HID report"""
@@ -320,6 +326,17 @@ def print_keyboard_report(report_data):
         print()
     elif modifiers == 0:
         print("No keys pressed")
+
+
+
+# Mark-MDO47 if no keyboard is attached to USB-A, just do test pattern on solenoids
+if keyboard is None:
+    while True:
+        for i in range(2):
+            strike_key_solenoid()
+            time.sleep(1.0)
+        ring_bell_solenoid()
+        time.sleep(3.0)
 
 
 print("USB Typewriter starting...")

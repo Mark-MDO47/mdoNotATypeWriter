@@ -324,16 +324,16 @@ def print_keyboard_report(report_data):
     elif modifiers == 0:
         print("No keys pressed")
 
-
-print("USB Typewriter starting...")
-print(f"Bell will ring every {KEYSTROKE_BELL_INTERVAL} keystrokes or when Enter is pressed")
-
 while True:
     for i in range(2):
         strike_key_solenoid()
         time.sleep(1.0)
     ring_bell_solenoid()
     time.sleep(3.0)
+
+
+print("USB Typewriter starting...")
+print(f"Bell will ring every {KEYSTROKE_BELL_INTERVAL} keystrokes or when Enter is pressed")
 
 """
 while True:
