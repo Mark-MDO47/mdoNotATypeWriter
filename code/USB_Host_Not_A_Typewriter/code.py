@@ -332,11 +332,28 @@ def print_keyboard_report(report_data):
 # Mark-MDO47 if no keyboard is attached to USB-A, just do test pattern on solenoids
 if keyboard is None:
     while True:
-        for i in range(2):
+        for count in range(2):
+            for i in range(9):
+                strike_key_solenoid()
+                time.sleep(0.2)
+            time.sleep(0.6)
+            ring_bell_solenoid()
+            time.sleep(0.8)
+        for count in range(2):
+            for i in range(5):
+                strike_key_solenoid()
+                time.sleep(0.2)
+            time.sleep(0.2)
+            ring_bell_solenoid()
+            time.sleep(0.4)
+        for i in range(9):
             strike_key_solenoid()
-            time.sleep(1.0)
+            time.sleep(0.2)
+        time.sleep(0.2)
         ring_bell_solenoid()
-        time.sleep(3.0)
+        time.sleep(0.4)
+        ring_bell_solenoid()
+        time.sleep(0.8)
 
 
 print("USB Typewriter starting...")
