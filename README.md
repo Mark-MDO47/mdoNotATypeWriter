@@ -58,6 +58,17 @@ For Arduino-style programming:
 For CircuitPython-style programming:
 - nothing yet
 
+### CircuitPython USB Keyboard Documentation
+Some useful documentation for reading the keyboard data from the USB-A port
+- https://learn.adafruit.com/using-a-keyboard-with-usb-host?view=all
+- https://learn.adafruit.com/using-a-keyboard-with-usb-host/circuitpython
+
+Some useful information for relaying keyboard data to the USB-C port and on into the PC
+- https://docs.circuitpython.org/projects/hid/en/latest/
+- https://docs.circuitpython.org/projects/hid/en/latest/api.html
+- https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse
+- https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-hid-keyboard
+
 ## The Code - Derived from Adafruit Learning
 [Top](#mdo-notatypewriter "Top")<br>
 Here is a link to the area with my version of the code and a description of the changes I made.
