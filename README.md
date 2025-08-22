@@ -63,12 +63,19 @@ For CircuitPython-style programming:
 Some useful documentation for reading the keyboard data from the USB-A port
 - https://learn.adafruit.com/using-a-keyboard-with-usb-host?view=all
 - https://learn.adafruit.com/using-a-keyboard-with-usb-host/circuitpython
+- https://learn.adafruit.com/adafruit-feather-rp2040-with-usb-type-a-host/usb-host-device-info-2
 
 Some useful information for relaying keyboard data to the USB-C port and on into the PC
 - https://docs.circuitpython.org/projects/hid/en/latest/
 - https://docs.circuitpython.org/projects/hid/en/latest/api.html
 - https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse
 - https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-hid-keyboard
+
+### Arduino USB Keyboard Documentation
+Some useful documentation for reading the keyboard data from the USB-A port
+- https://learn.adafruit.com/using-a-keyboard-with-usb-host?view=all
+- https://learn.adafruit.com/using-a-keyboard-with-usb-host/arduino
+- https://learn.adafruit.com/adafruit-feather-rp2040-with-usb-type-a-host/arduino-ide-setup
 
 ## The Code - Derived from Adafruit Learning
 [Top](#mdo-notatypewriter "Top")<br>
