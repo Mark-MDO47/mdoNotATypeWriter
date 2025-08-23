@@ -18,6 +18,7 @@ I am happy to provide Attribution to Adafruit and to the Ruiz Brothers (3D desig
 * [Differences from Original Adafruit Learning Not A Typewriter](#differences-from-original-adafruit-learning-not-a-typewriter "Differences from Original Adafruit Learning Not A Typewriter")
 * [RP2040 and Dual USB](#rp2040-and-dual-usb "RP2040 and Dual USB")
   * [CircuitPython USB Keyboard Documentation](#circuitpython-usb-keyboard-documentation "CircuitPython USB Keyboard Documentation")
+  * [Arduino USB Keyboard Documentation](#arduino-usb-keyboard-documentation "Arduino USB Keyboard Documentation")
 * [The Code - Derived from Adafruit Learning](#the-code-\--derived-from-adafruit-learning "The Code - Derived from Adafruit Learning")
 * [Schematic](#schematic "Schematic")
 * [Assembly](#assembly "Assembly")
