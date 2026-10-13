@@ -7,6 +7,15 @@ The original is here:
 
 I am happy to provide Attribution to Adafruit and to the Ruiz Brothers (3D design) and to Liz Clark (author of the code) !
 
+Shout-out to Leroy Anderson's "The Typewriter", AKA the typewriter concerto
+- soloist Alfredo Anaya, with conductor Miguel Roa.<br>
+- https://x.com/Moonlighhy/status/2108052012801876395
+
+<img width="704" height="391" alt="image" src="https://github.com/user-attachments/assets/6adac154-ee7a-40b4-9431-15a45578292d" />
+<br>
+<br>
+<br>
+
 | Original | Mine |
 | --- | --- |
 | <img src="https://cdn-learn.adafruit.com/assets/assets/000/137/815/medium640/3d_printing_hero-ipad.jpg?1750171571" width="300" alt="Original Adafruit Learning Not A Typewriter"> | <img src="https://github.com/Mark-MDO47/mdoNotATypeWriter/blob/master/resources/images/NOT_SideView.jpg" width="200" alt="MDO Not A TypewriterFront View"> |
